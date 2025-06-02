@@ -1,0 +1,45 @@
+{
+  "version": "1.0",
+  "caps": [
+    {
+      "type": "text"
+    }
+  ],
+  "server": {
+    "local": {},
+    "remote": {
+      "port": "4723",
+      "hostname": "172.0.0.1"
+    },
+    "advanced": {
+      "useProxy": false,
+      "allowUnauthorized": false
+    },
+    "sauce": {
+      "dataCenter": "us-west-1"
+    },
+    "headspin": {},
+    "browserstack": {
+      "username": "youstinaatefsala_v352Cg",
+      "accessKey": "3rQaNjH1L2qnFk5MMybp",
+      "hostname": "hub-cloud.browserstack.com",
+      "port": 443,
+      "path": "/wd/hub",
+      "ssl": true
+    },
+    "lambdatest": {},
+    "testingbot": {},
+    "experitest": {},
+    "roboticmobi": {},
+    "remotetestkit": {},
+    "bitbar": {},
+    "kobiton": {},
+    "perfecto": {},
+    "pcloudy": {},
+    "mobitru": {}
+  },
+  "serverType": "remote",
+  "visibleProviders": [
+    "browserstack"
+  ]
+}
