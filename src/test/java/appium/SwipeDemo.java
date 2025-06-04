@@ -8,7 +8,7 @@ import org.openqa.selenium.remote.RemoteWebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class SwipeDemo extends BasicTests{
+public class SwipeDemo extends BaseTest{
     @Test
     public void  swipeTest(){
         driver.findElement(AppiumBy.accessibilityId("Views")).click();
@@ -16,7 +16,7 @@ public class SwipeDemo extends BasicTests{
         driver.findElement(AppiumBy.xpath("//android.widget.TextView[@content-desc=\"1. Photos\"]")).click();
         WebElement firstElement= driver.findElement(AppiumBy.xpath("(//android.widget.ImageView)[1]"));
         Assert.assertEquals(firstElement.getDomAttribute("focusable"),"true");
-        swipeAction(firstElement,"left");
+        //swipeAction(firstElement,"left");
         Assert.assertEquals(firstElement.getDomAttribute("focusable"),"false");
 
 

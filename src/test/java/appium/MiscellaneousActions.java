@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 import java.net.MalformedURLException;
 import java.util.Map;
 
-public class MiscellaneousActions extends BasicTests  {
+public class MiscellaneousActions extends BaseTest  {
     @Test
     public void miscellaneousActions() throws MalformedURLException, InterruptedException {
         //adb shell dumpsys window | find "mCurrentFocus"

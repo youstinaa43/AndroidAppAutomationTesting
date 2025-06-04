@@ -31,13 +31,28 @@ Automate core functionalities of the **API Demos** on real Android devices using
 
 ## 📂 Project Structure
 
-guru99-android-automation/
-├── src/test/java/
-│ ├── tests/ # Test classes
-│ ├── pages/ # Page Object classes
-│ └── utils/ # Driver and helper utilities
-├── testng.xml # Test suite configuration
-├── pom.xml # Maven dependencies
+Mobile\_Testing\_FrameWork
+├── pom.xml
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   ├── actions
+│   │   │   │   └── ElementActions.java          ← Contains click(), sendKeys(), waitForElement()
+│   │   │   └── pages
+│   │   │       ├── HomePage.java
+│   │   │       ├── AccessibilityPage.java
+│   │   │       └── PreferencePage.java                 and so on               
+│   │   └── resources
+│   │       └── config.properties
+│   └── test
+│       ├── java
+│       │   ├── BaseTest.java
+│       │   ├── TC_001_VerifyPreferenceDependenciet.java    and so on
+│       │   
+│       └── resources
+│           └── testng.xml
+└── drivers
+└── ApiDemos-debug.apk
 
 yaml
 Copy
