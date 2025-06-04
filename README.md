@@ -53,6 +53,10 @@ Mobile_Testing_FrameWork
 │       └── resources
 │           └── testng.xml
 
+yaml
+Copy
+Edit
+
 ---
 
 ## 🔌 Device Setup
