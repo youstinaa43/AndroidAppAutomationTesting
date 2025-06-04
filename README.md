@@ -54,15 +54,16 @@ Automate core functionalities of the **API Demos** on real Android devices using
 │       │   └── ...
 │       └── resources
 │           └── testng.xml
+🔌 Device Setup
+Enable Developer Options and USB Debugging on your Android phone.
 
----
+Connect the device via USB.
 
-## 🔌 Device Setup
+Verify with:
 
-1. Enable **Developer Options** and **USB Debugging** on your Android phone.
-2. Connect the device via USB.
-3. Verify with:
-```bash
+bash
+Copy
+Edit
 adb devices
 ▶️ How to Run
 bash
@@ -77,9 +78,16 @@ mvn clean test
 json
 Copy
 Edit
-
+{
+  "platformName": "Android",
+  "automationName": "UiAutomator2",
+  "deviceName": "Android Device",
+  "app": "path/to/ApiDemos-debug.apk"
+}
 👨‍💻 Author
 Youstina Atef Salama
-Software Tester Engineer
+Software Test Engineer
 
-
+vbnet
+Copy
+Edit
