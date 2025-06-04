@@ -1,4 +1,3 @@
-
 # 📱 Android App Automation Framework
 
 ## ✅ Objective
@@ -8,7 +7,7 @@ Automate core functionalities of the **API Demos** on real Android devices using
 
 ## 🧪 Scope of Testing
 
-- 📲 Tested on **real Android device** via USB
+- 📲 Tested on **real Android device** via USB  
 - 🔍 Element inspection using **Appium Inspector**
 
 ---
@@ -31,7 +30,31 @@ Automate core functionalities of the **API Demos** on real Android devices using
 
 ## 📂 Project Structure
 
-<pre> ```text 📂 Mobile_Testing_FrameWork ├── pom.xml ├── drivers │ └── ApiDemos-debug.apk ├── src │ ├── main │ │ ├── java │ │ │ ├── actions │ │ │ │ └── ElementActions.java │ │ │ ├── pages │ │ │ │ ├── HomePage.java │ │ │ │ ├── AccessibilityPage.java │ │ │ │ └── ... │ │ │ └── BasePage.java │ │ └── resources │ │ └── config.properties │ └── test │ ├── java │ │ ├── BaseTest.java │ │ ├── TC_001_VerifyPreferenceDependencie.java │ │ └── ... │ └── resources │ └── testng.xml ``` </pre>
+```text
+📂 Mobile_Testing_FrameWork
+├── pom.xml
+├── drivers
+│   └── ApiDemos-debug.apk
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   ├── actions
+│   │   │   │   └── ElementActions.java
+│   │   │   ├── pages
+│   │   │   │   ├── HomePage.java
+│   │   │   │   ├── AccessibilityPage.java
+│   │   │   │   └── ...
+│   │   │   └── BasePage.java
+│   │   └── resources
+│   │       └── config.properties
+│   └── test
+│       ├── java
+│       │   ├── BaseTest.java
+│       │   ├── TC_001_VerifyPreferenceDependencie.java
+│       │   └── ...
+│       └── resources
+│           └── testng.xml
+
 ---
 
 ## 🔌 Device Setup

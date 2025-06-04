@@ -4,35 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47a1cca9-4619-4de4-99d6-6c7ad2e3dd6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/actions/ElementActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AccessibilityPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AnimationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AppPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ContentPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/GraphicsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/MediaPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/NFCPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/OSPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/PreferencePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/TextPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ViewsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/appium/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/appium/TC_001_VerifyPreferenceDependencies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resource/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/appium/AppiumBasics.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/appium/BasicTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/appium/DragDropDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appium/DragDropDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/appium/LongPress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appium/LongPress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/appium/MiscellaneousActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appium/MiscellaneousActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/appium/ScrollDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appium/ScrollDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/appium/SwipeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appium/SwipeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resource/ApiDemos-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/ApiDemos-debug.apk" afterDir="false" />
-    </list>
+    <list default="true" id="47a1cca9-4619-4de4-99d6-6c7ad2e3dd6b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
