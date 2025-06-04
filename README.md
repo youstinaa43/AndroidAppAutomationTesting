@@ -31,33 +31,7 @@ Automate core functionalities of the **API Demos** on real Android devices using
 
 ## 📂 Project Structure
 
-Mobile_Testing_FrameWork/
-├── pom.xml
-├── drivers
-│   └── ApiDemos-debug.apk
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   ├── actions
-│   │   │   │   └── ElementActions.java
-│   │   │   ├── pages
-│   │   │   │   ├── HomePage.java
-│   │   │   │   ├── AccessibilityPage.java   and so on 
-│   │   │   
-│   │   └── resources
-│   │       └── config.properties
-│   └── test
-│       ├── java
-│       │   ├── BaseTest.java
-│       │   ├── TC_001_VerifyPreferenceDependencie.java  and so on
-│       │   
-│       └── resources
-│           └── testng.xml
-
-yaml
-Copy
-Edit
-
+<pre> ```text 📂 Mobile_Testing_FrameWork ├── pom.xml ├── drivers │ └── ApiDemos-debug.apk ├── src │ ├── main │ │ ├── java │ │ │ ├── actions │ │ │ │ └── ElementActions.java │ │ │ ├── pages │ │ │ │ ├── HomePage.java │ │ │ │ ├── AccessibilityPage.java │ │ │ │ └── ... │ │ │ └── BasePage.java │ │ └── resources │ │ └── config.properties │ └── test │ ├── java │ │ ├── BaseTest.java │ │ ├── TC_001_VerifyPreferenceDependencie.java │ │ └── ... │ └── resources │ └── testng.xml ``` </pre>
 ---
 
 ## 🔌 Device Setup
