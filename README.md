@@ -30,7 +30,8 @@ Automate core functionalities of the **API Demos** on real Android devices using
 ---
 
 ## 📂 Project Structure
-Mobile_Testing_FrameWork
+
+Mobile_Testing_FrameWork/
 ├── pom.xml
 ├── drivers
 │   └── ApiDemos-debug.apk
