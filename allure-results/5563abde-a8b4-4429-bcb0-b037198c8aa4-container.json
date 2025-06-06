@@ -1,0 +1,1 @@
+{"uuid":"5563abde-a8b4-4429-bcb0-b037198c8aa4","name":"appium.TC_005_VerifyScroll","children":["2a4b8e7a-fa11-4aa5-aeae-aa44c88fdd73"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1749214084027,"stop":1749214091256}],"afters":[],"start":1749214011256,"stop":1749214119353}

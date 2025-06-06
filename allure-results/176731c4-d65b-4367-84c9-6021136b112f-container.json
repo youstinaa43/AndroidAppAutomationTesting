@@ -1,0 +1,1 @@
+{"uuid":"176731c4-d65b-4367-84c9-6021136b112f","name":"appium.TC_006_VerifyMiscellaneousActions","children":["12015270-c791-49b5-b173-26666f2378d7"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1749214454017,"stop":1749214461742}],"afters":[],"start":1749214356749,"stop":1749214472261}

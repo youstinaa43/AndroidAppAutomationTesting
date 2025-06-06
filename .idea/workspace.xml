@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47a1cca9-4619-4de4-99d6-6c7ad2e3dd6b" name="Changes" comment="" />
+    <list default="true" id="47a1cca9-4619-4de4-99d6-6c7ad2e3dd6b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/actions/DeviceActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/ElementActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/ElementActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PreferencePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PreferencePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ViewsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ViewsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/appium/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appium/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/appium/DragDropDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appium/TC_002_VerifyDragDrop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/appium/LongPress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appium/TC_003_VerifyLongPress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/appium/MiscellaneousActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appium/TC_006_VerifyMiscellaneousActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/appium/ScrollDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appium/TC_005_VerifyScroll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/appium/SwipeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appium/TC_004_VerifySwipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/appium/TC_001_VerifyPreferenceDependencies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appium/TC_001_VerifyPreferenceDependencies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resource/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resource/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,25 +50,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG.AppiumBasics.executor": "Run",
-    "TestNG.DragDropDemo.executor": "Run",
-    "TestNG.LongPress.executor": "Run",
-    "TestNG.MiscellaneousActions.executor": "Run",
-    "TestNG.ScrollDemo.executor": "Run",
-    "TestNG.SwipeDemo.executor": "Run",
-    "TestNG.TC_001_VerifyPreferenceDependencies.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/Java/Projects/Mobile_Testing_FrameWork"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.AppiumBasics.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DragDropDemo.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.F:/Java/Projects/Mobile_Testing_FrameWork/src/test/java/resource/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LongPress.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MiscellaneousActions.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ScrollDemo.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SwipeDemo.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TC_001_VerifyPreferenceDependencies.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TC_002_VerifyDragDrop.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TC_003_VerifyLongPress.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TC_004_VerifySwipe.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TC_005_VerifyScroll.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TC_006_VerifyMiscellaneousActions.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Java/Projects/Mobile_Testing_FrameWork/src/test/java/resource&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="actions" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Java\Projects\Mobile_Testing_FrameWork\src\test\java\resource" />
       <recent name="F:\Java\Projects\Mobile_Udemy\src\test\java\resource" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -61,8 +88,18 @@
       <recent name="appium" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TC_001_VerifyPreferenceDependencies">
-    <configuration name="DragDropDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.F:/Java/Projects/Mobile_Testing_FrameWork/src/test/java/resource/testng.xml">
+    <configuration name="F:/Java/Projects/Mobile_Testing_FrameWork/src/test/java/resource/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Mobile_Udemy" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/resource/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_003_VerifyLongPress" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Mobile_Udemy" />
       <extension name="coverage">
         <pattern>
@@ -71,7 +108,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="appium" />
-      <option name="MAIN_CLASS_NAME" value="appium.DragDropDemo" />
+      <option name="MAIN_CLASS_NAME" value="appium.TC_003_VerifyLongPress" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -79,7 +116,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MiscellaneousActions" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC_004_VerifySwipe" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Mobile_Udemy" />
       <extension name="coverage">
         <pattern>
@@ -88,7 +125,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="appium" />
-      <option name="MAIN_CLASS_NAME" value="appium.MiscellaneousActions" />
+      <option name="MAIN_CLASS_NAME" value="appium.TC_004_VerifySwipe" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -96,7 +133,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScrollDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC_005_VerifyScroll" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Mobile_Udemy" />
       <extension name="coverage">
         <pattern>
@@ -105,7 +142,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="appium" />
-      <option name="MAIN_CLASS_NAME" value="appium.ScrollDemo" />
+      <option name="MAIN_CLASS_NAME" value="appium.TC_005_VerifyScroll" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -113,7 +150,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwipeDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC_006_VerifyMiscellaneousActions" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Mobile_Udemy" />
       <extension name="coverage">
         <pattern>
@@ -122,24 +159,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="appium" />
-      <option name="MAIN_CLASS_NAME" value="appium.SwipeDemo" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TC_001_VerifyPreferenceDependencies" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Mobile_Udemy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="appium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="appium" />
-      <option name="MAIN_CLASS_NAME" value="appium.TC_001_VerifyPreferenceDependencies" />
+      <option name="MAIN_CLASS_NAME" value="appium.TC_006_VerifyMiscellaneousActions" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -149,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TC_001_VerifyPreferenceDependencies" />
-        <item itemvalue="TestNG.ScrollDemo" />
-        <item itemvalue="TestNG.MiscellaneousActions" />
-        <item itemvalue="TestNG.DragDropDemo" />
-        <item itemvalue="TestNG.SwipeDemo" />
+        <item itemvalue="TestNG.F:/Java/Projects/Mobile_Testing_FrameWork/src/test/java/resource/testng.xml" />
+        <item itemvalue="TestNG.TC_006_VerifyMiscellaneousActions" />
+        <item itemvalue="TestNG.TC_005_VerifyScroll" />
+        <item itemvalue="TestNG.TC_004_VerifySwipe" />
+        <item itemvalue="TestNG.TC_003_VerifyLongPress" />
       </list>
     </recent_temporary>
   </component>

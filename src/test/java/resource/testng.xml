@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MobileAppAutomationSuite" verbose="1" parallel="false">
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+    <test name="Appium Functional Tests">
+        <classes>
+            <class name="appium.TC_001_VerifyPreferenceDependencies" />
+            <class name="appium.TC_002_VerifyDragDrop" />
+            <class name="appium.TC_003_VerifyLongPress" />
+            <class name="appium.TC_004_VerifySwipe" />
+            <class name="appium.TC_005_VerifyScroll" />
+            <class name="appium.TC_006_VerifyMiscellaneousActions" />
+        </classes>
+    </test>
+</suite>

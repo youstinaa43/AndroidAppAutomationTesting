@@ -16,6 +16,26 @@ public class ElementActions {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
+    public WebElement getWebElement(String selector,Locators locator){
+        WebElement element;
+        switch (locator){
+            case id:
+                element=  driver.findElement(AppiumBy.id(selector));
+                break;
+            case xpath:
+                element=driver.findElement(AppiumBy.xpath(selector));
+                break;
+            case accessibilityId:
+                element= driver.findElement(AppiumBy.accessibilityId(selector));
+                break;
+            case androidUIAutomator:
+                element=driver.findElement(AppiumBy.androidUIAutomator(selector));
+                break;
+            default:
+                throw new IllegalArgumentException("Unsupported locator type: " + locator);
+        }
+        return element;
+    }
     public void click(String selector,Locators locator){
         By element;
         switch (locator){

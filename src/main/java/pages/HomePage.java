@@ -1,11 +1,18 @@
 package pages;
 
+import actions.DeviceActions;
 import actions.ElementActions;
+import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.nativekey.AndroidKey;
+import org.openqa.selenium.WebElement;
+
+import java.util.List;
 
 public class HomePage {
     private AndroidDriver driver;
     ElementActions elementActions;
+    DeviceActions deviceActions;
     String accessibility="Accessibility";
     String animation="Animation";
     String app="App";
@@ -21,6 +28,7 @@ public class HomePage {
     public HomePage(AndroidDriver driver){
         this.driver=driver;
         elementActions=new ElementActions(driver);
+        deviceActions=new DeviceActions(driver);
     }
     public AccessibilityPage clickOnAccessibility(){
         elementActions.click(accessibility, ElementActions.Locators.accessibilityId);
@@ -65,5 +73,16 @@ public class HomePage {
     public ViewsPage clickOnViews(){
         elementActions.click(views, ElementActions.Locators.accessibilityId);
         return new ViewsPage(driver);
+    }
+    public void navigateToHomePage() {
+        while (true){
+            List<WebElement> elements=driver.findElements(AppiumBy.className("android.widget.TextView"));
+            for (WebElement element : elements) {
+                if (element.isDisplayed() && "Accessibility".equals(element.getText())) {
+                    return;
+                }
+            }
+            deviceActions.pressKey(AndroidKey.BACK);
+        }
     }
 }

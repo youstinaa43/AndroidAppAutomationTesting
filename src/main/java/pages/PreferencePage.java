@@ -38,6 +38,8 @@ public class PreferencePage {
     }
     public void sendTextToWifiSetting(String message){
         elementActions.sendKeys(depen_WifiSetting_Text, ElementActions.Locators.id,message);
+    }
+    public void clickOnWifiSettingOK(){
         elementActions.click(depen_WifiSetting_Ok, ElementActions.Locators.id);
     }
     public String getDepenWifiSettingtitle(){

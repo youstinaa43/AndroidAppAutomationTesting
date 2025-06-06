@@ -1,0 +1,1 @@
+{"uuid":"90de1f2e-afa9-423f-b86c-a7671c1367d4","name":"appium.TC_004_VerifySwipe","children":["bd1b5496-7324-4790-bf52-4e54c03353c3"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1749214066124,"stop":1749214073623}],"afters":[],"start":1749214011256,"stop":1749214119351}

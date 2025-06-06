@@ -1,0 +1,1 @@
+{"uuid":"cf28df42-661e-4838-98bc-bdd8e41e29c5","name":"appium.BaseTest.appHome","children":["6a59699f-e4a3-42ea-a931-18737e8dfb0a"],"description":"","befores":[],"afters":[{"name":"appHome","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1749217737446,"stop":1749217741500}],"start":1749217737444,"stop":1749217741501}

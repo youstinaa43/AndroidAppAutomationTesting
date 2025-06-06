@@ -1,0 +1,1 @@
+{"uuid":"674e2525-1ecd-40ae-98ec-9f1a3fa612cc","name":"appium.TC_002_VerifyDragDrop","children":["63657054-1a98-4514-b453-08c6c97caa31"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1749214379925,"stop":1749214389273}],"afters":[],"start":1749214356746,"stop":1749214472253}

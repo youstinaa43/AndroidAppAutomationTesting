@@ -1,0 +1,1 @@
+{"uuid":"617b965d-0063-4d00-879b-02318ee9eec8","name":"appium.TC_001_VerifyPreferenceDependencies","children":["f16545a5-944a-486a-a720-17a1163a4e8c"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1749214356890,"stop":1749214368236}],"afters":[],"start":1749214356745,"stop":1749214472250}

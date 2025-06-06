@@ -1,0 +1,1 @@
+{"uuid":"d1116561-86bc-4fa8-b807-b4b8c76bd3ee","name":"appium.TC_003_VerifyLongPress","children":["d54eff5c-803b-4d25-a6fb-ca3e0a3707b7"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1749214399908,"stop":1749214407440}],"afters":[],"start":1749214356748,"stop":1749214472255}

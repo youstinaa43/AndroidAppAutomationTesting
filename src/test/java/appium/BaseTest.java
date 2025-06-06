@@ -1,6 +1,6 @@
 package appium;
 
-import actions.ElementActions;
+import actions.DeviceActions;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
@@ -20,6 +20,7 @@ public class BaseTest {
     protected static AppiumDriverLocalService service;
     protected static Properties props;
     HomePage homePage;
+    DeviceActions deviceActions;
 
     @BeforeSuite
     public void beforeSuite() throws Exception {
@@ -50,12 +51,14 @@ public class BaseTest {
         options.setAutoGrantPermissions(true);
         options.setIgnoreHiddenApiPolicyError(true);
         options.setDisableWindowAnimation(true);
+        options.skipDeviceInitialization();
+        options.skipServerInstallation();
         URL appiumURL = new URL("http://" + props.getProperty("appiumHost") + ":" + props.getProperty("appiumPort") );
         driver = new AndroidDriver(appiumURL, options);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         homePage=new HomePage(driver);
+        deviceActions=new DeviceActions(driver);
     }
-
     @AfterClass
     public void tearDown() {
         if (driver != null) {
@@ -69,4 +72,9 @@ public class BaseTest {
             service.stop();
         }
     }
-}
+    @AfterMethod
+    public void appHome() {
+        homePage.navigateToHomePage();
+        }
+    }
+
